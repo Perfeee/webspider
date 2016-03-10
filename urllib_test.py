@@ -21,3 +21,5 @@ try:
 	print(web.read())
 except urllib.error.URLError:
 	print(urllib.error.URLError.reason)
+	
+print('github learning ')
